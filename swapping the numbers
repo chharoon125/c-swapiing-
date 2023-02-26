@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a ,b;
+    cout<<"Enter  a first number "<<endl;
+    cin>>a;
+    cout<<"Enter a second number "<<endl;
+    cin>>b;
+    cout<<"Before Swapping "<<endl;
+	cout << "\n\ta = " << a << ", b = " << b << endl;
+    
+  a=a+b;
+  b=a-b;
+  a=a-b;
+   
+    cout<<"After Swapping "<<endl;
+    cout << "\n\ta = " << a << ", b = " << b << endl;
+    
+     return 0;
+ }
+ 
